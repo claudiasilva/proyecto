@@ -1,0 +1,106 @@
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.jumbotron {
+    background-color: indianred;
+    color: white;
+    background-image: url("images/banner.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.carousel-inner, .carousel-item {
+    width: 100%;
+    height: 30%;
+}
+.carousel-item .gradient {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: #000000;
+    opacity: 0.5;
+}
+.carousel-inner img {
+    width: 100%;
+  }
+
+.logo {
+    width: 100px;
+}
+.navbar {
+    background-color: bisque;
+}
+.nav-link {
+    color: #000000!important;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.lista-tooltip a{
+    width: 250px;
+    height: 166px;
+    display: inline-block;
+}
+
+h4 {
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: black;
+} 
+
+h5 {
+    font-size: 18px;
+    color: black;
+}
+.card-body a, .card-body a:focus, .card-body a:visited {
+    display: block;
+    margin: auto;
+    background-color: rgb(226,196,44,1);
+    border: none;
+}
+
+.card-body a:hover {
+    background-color: rgb(196, 167, 24);
+    border: none;
+}
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+footer a, footer a:visited, footer a:focus {
+    color: white!important;
+    font-size: 14px;
+}
+
+footer i {
+    margin-right: 20px;
+}
+
+hr {
+    border-color: rgb(255, 255, 255, 0.2);
+}
+
+.sin-padding {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.carousel-inner h3 {
+    font-size: 40px;
+}
+
+.card {
+    border-radius: 10px;
+}
