@@ -4,9 +4,15 @@ body {
 }
 
 .carousel-inner, .carousel-item {
-    width: 100%;
-    height: 70%;
+    /* width: 100%;
+    max-height: 600px; */
+    height: 400px;
 }
+.carousel-inner img {
+    height: 100%;
+    width: auto;
+}
+
 .carousel-item .gradient {
     position: absolute;
     top: 0;
@@ -17,9 +23,7 @@ body {
     background-color: #000000;
     opacity: 0.5;
 }
-.carousel-inner img {
-    width: 100%;
-  }
+
 
 .carousel-inner a {
     background-color: rgb(226,196,44,1) ;
@@ -190,5 +194,13 @@ button {
     p.titulo-interior  {
         font-size: 40px;
     }
+    .carousel-inner, .carousel-item {
+        width: 100%;
+        max-height: 600px;
+        height:auto;
+    }
+    .carousel-inner img {
+        width: 100%;
+      }
 }
 
