@@ -104,6 +104,16 @@ a.yellow-hover:hover {
     color: white;
     border-color: white;
 }
+a.yellow {
+    background-color: rgb(226,196,44,1);
+    border: none;
+    color: white;
+}
+a.yellow:hover {
+    background-color: rgb(196, 167, 24);
+    border: none;
+    color: white;
+}
 footer {
     background-color: black;
     color: white;
@@ -141,8 +151,17 @@ hr {
     margin-bottom: 40px;
 }
 
+p.titulo-interior  {
+    font-size: 30px;
+}
+p.precio {
+    font-size: 30px;
+}
 @media (min-width: 768px) { 
     h2 {
+        font-size: 40px;
+    }
+    p.titulo-interior  {
         font-size: 40px;
     }
 }
