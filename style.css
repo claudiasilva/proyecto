@@ -104,12 +104,12 @@ a.yellow-hover:hover {
     color: white;
     border-color: white;
 }
-a.yellow {
+.yellow {
     background-color: rgb(226,196,44,1);
     border: none;
     color: white;
 }
-a.yellow:hover {
+.yellow:hover {
     background-color: rgb(196, 167, 24);
     border: none;
     color: white;
@@ -157,6 +157,32 @@ p.titulo-interior  {
 p.precio {
     font-size: 30px;
 }
+.card {
+    padding: 30px 40px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    border: none !important;
+    box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2)
+}
+input,
+textarea,
+button {
+    padding: 8px 15px;
+    border-radius: 5px !important;
+    margin: 5px 0px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    font-size: 16px !important;
+
+}
+
+.img-receta {
+    width: 100%;
+}
+.fecha {
+    font-size: 14px;
+    color: #a1a1a1;
+}
 @media (min-width: 768px) { 
     h2 {
         font-size: 40px;
@@ -165,3 +191,4 @@ p.precio {
         font-size: 40px;
     }
 }
+
