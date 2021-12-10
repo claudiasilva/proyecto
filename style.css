@@ -87,7 +87,9 @@ footer a, footer a:visited, footer a:focus {
 footer i {
     margin-right: 20px;
 }
-
+footer .nav-link {
+    color: white!important;
+}
 hr {
     border-color: rgb(255, 255, 255, 0.2);
 }
@@ -103,4 +105,7 @@ hr {
 
 .card {
     border-radius: 10px;
+}
+.seccion-recom {
+    margin-bottom: 40px;
 }
