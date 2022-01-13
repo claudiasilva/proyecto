@@ -1,0 +1,236 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-family: "Open Sans", sans-serif;
+}
+
+.carousel-inner, .carousel-item {
+  /* width: 100%;
+  max-height: 600px; */
+  height: 400px;
+}
+
+.carousel-inner img {
+  height: 100%;
+  width: auto;
+}
+
+.carousel-item .gradient {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: #000000;
+  opacity: 0.5;
+}
+
+.carousel-inner a {
+  background-color: #e2c42c;
+  color: white;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.carousel-inner a:hover {
+  background-color: #a58c0e;
+  color: white;
+}
+
+.logo {
+  width: 100px;
+}
+
+.navbar {
+  background-color: bisque;
+  border-bottom: 1px solid #c2c2c2;
+}
+
+.nav-link {
+  color: #000000 !important;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.lista-tooltip a {
+  width: 250px;
+  height: 166px;
+  display: inline-block;
+}
+
+h2 {
+  font-size: 30;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 20px;
+  text-align: center;
+  color: black;
+  text-transform: uppercase;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: black;
+}
+
+h5 {
+  font-size: 18px;
+  color: black;
+}
+
+.card-body a, .card-body a:focus, .card-body a:visited {
+  display: block;
+  margin: auto;
+  background-color: #e2c42c;
+  border: none;
+}
+
+.card-body a:hover {
+  background-color: #c4a718;
+  border: none;
+}
+
+.vcenter-item {
+  display: flex;
+  align-items: center;
+}
+
+.txt-receta {
+  font-size: 16px;
+}
+
+.titulo {
+  font-size: 18px;
+  font-style: italic;
+}
+
+.img-receta-home {
+  width: 100%;
+}
+
+a.yellow-hover {
+  font-size: 14px;
+}
+
+a.yellow-hover:hover {
+  background-color: #c4a718 !important;
+  color: white;
+  border-color: white;
+}
+
+.yellow {
+  background-color: #e2c42c;
+  border: none;
+  color: white;
+}
+
+.yellow:hover {
+  background-color: #c4a718;
+  border: none;
+  color: white;
+}
+
+footer {
+  background-color: black;
+  color: white;
+}
+
+footer a, footer a:visited, footer a:focus {
+  color: white !important;
+  font-size: 14px;
+}
+
+footer i {
+  margin-right: 20px;
+}
+
+footer .nav-link {
+  color: white !important;
+}
+
+hr {
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.sin-padding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.carousel-inner h3 {
+  font-size: 40px;
+}
+
+.card {
+  border-radius: 10px;
+  padding: 8px;
+}
+
+.seccion-recom {
+  margin-bottom: 40px;
+}
+
+p.titulo-interior {
+  font-size: 30px;
+}
+
+p.precio {
+  font-size: 30px;
+}
+
+.card {
+  padding: 30px 40px;
+  margin-top: 30px;
+  margin-bottom: 60px;
+  border: none !important;
+  box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2);
+}
+
+input,
+textarea,
+button {
+  padding: 8px 15px;
+  border-radius: 5px !important;
+  margin: 5px 0px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  font-size: 16px !important;
+}
+
+.img-receta {
+  width: 100%;
+}
+
+.fecha {
+  font-size: 14px;
+  color: #a1a1a1;
+}
+
+@media (min-width: 768px) {
+  h2 {
+    font-size: 40px;
+  }
+
+  p.titulo-interior {
+    font-size: 40px;
+  }
+
+  .carousel-inner, .carousel-item {
+    width: 100%;
+    max-height: 600px;
+    height: auto;
+  }
+
+  .carousel-inner img {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=style-s.css.map */
