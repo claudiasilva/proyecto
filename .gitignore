@@ -3,3 +3,6 @@ pruebas.html
 /images/imagen15.jpg
 *.txt
 /style/style-s.scss
+/style/_colores.scss
+/style/_fuentes.scss
+/style/_mixings.scss
